@@ -76,9 +76,34 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 # Sprint 2
 
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/DailyScrumMeetingNotesSprint1.docx)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint2_1.png) 
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+
+
+- **Sprint Review**: 
+-Oyunun uzun vadede nasıl bir yol alacağıyla ilgili fikirler paylaşıldı. Karakter hareket, animasyon ve özel güçleri yapıldı. 1.level tasarlandı.
+
+- **Sprint Retrospective:**
+  - 
+ 
+
+-**Diğer Notlar**:
+- N/A
 
 ---
-
 # Sprint 3
 
 
