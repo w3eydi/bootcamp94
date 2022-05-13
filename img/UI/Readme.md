@@ -1,11 +1,11 @@
 ### UI Tasklist
 
-- [x] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] UI initial page template
+- [x] Game screen template
+- [x] Game settings template
+- [x] End of level template
+- [ ] Motion controller on a screen template
+- [ ] First UI codes in Unity
+- [ ] N/A
+- [ ] N/A
+- [ ] N/A
