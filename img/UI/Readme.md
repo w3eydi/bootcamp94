@@ -4,7 +4,7 @@
 - [x] Game screen template
 - [x] Game settings template
 - [x] End of level template
-- [ ] Motion controller on a screen template
+- [x] Motion controller on a screen template
 - [ ] First UI codes in Unity
 - [ ] N/A
 - [ ] N/A
