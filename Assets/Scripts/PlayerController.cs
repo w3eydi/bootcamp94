@@ -9,15 +9,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator _anim;
 
     [SerializeField] float moveSpeed = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    bool facingRight = true;
+    
+    void Update() {
+      if(_rigidBody2D.velocity.x < 0 && facingRight) {
+          FlipFace();
+      } else if (_rigidBody2D.velocity.x > 0 && !facingRight) {
+          FlipFace();
+      }
     }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         _rigidBody2D.velocity = new Vector2(_joystick.Horizontal * moveSpeed, _rigidBody2D.velocity.y);
+    }
+
+    void FlipFace() {
+        facingRight = !facingRight;
+        Vector3 tempLocalScale = transform.localScale;
+        tempLocalScale.x *= -1;
+        transform.localScale = tempLocalScale;
     }
 }
