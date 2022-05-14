@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
+    float jumpFrequency = 0.1f, nextJumpTime;
     bool facingRight = true;
     bool isGrounded = false;
     [SerializeField] Transform groundCheckPosition;
@@ -36,7 +37,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Jump() {
-        if(isGrounded) {
+        if(isGrounded && (nextJumpTime < Time.timeSinceLevelLoad)) {
+            nextJumpTime = Time.timeSinceLevelLoad + jumpFrequency;
             _rigidBody2D.AddForce(new Vector2(0f, jumpPower));
         }
     }
