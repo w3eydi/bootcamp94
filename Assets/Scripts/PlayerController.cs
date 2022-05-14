@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
     bool facingRight = true;
+    bool isGrounded = false;
+    [SerializeField] Transform groundCheckPosition;
+    [SerializeField] float groundCheckCircle;
+    [SerializeField] LayerMask groundCheckLayer;
     
     void Update() {
       if(_rigidBody2D.velocity.x < 0 && facingRight) {
@@ -18,6 +22,8 @@ public class PlayerController : MonoBehaviour
       } else if (_rigidBody2D.velocity.x > 0 && !facingRight) {
           FlipFace();
       }
+
+      OnGroundCheck();
     }
     void FixedUpdate()
     {
@@ -30,7 +36,9 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Jump() {
-        _rigidBody2D.AddForce(new Vector2(0f, jumpPower));
+        if(isGrounded) {
+            _rigidBody2D.AddForce(new Vector2(0f, jumpPower));
+        }
     }
 
     void FlipFace() {
@@ -38,5 +46,10 @@ public class PlayerController : MonoBehaviour
         Vector3 tempLocalScale = transform.localScale;
         tempLocalScale.x *= -1;
         transform.localScale = tempLocalScale;
+    }
+
+    void OnGroundCheck() {
+        isGrounded = Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckCircle
+        , groundCheckLayer);
     }
 }
