@@ -53,5 +53,6 @@ public class PlayerController : MonoBehaviour
     void OnGroundCheck() {
         isGrounded = Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckCircle
         , groundCheckLayer);
+        _anim.SetBool("isGroundedAnim", isGrounded);
     }
 }
