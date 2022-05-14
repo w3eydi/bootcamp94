@@ -20,7 +20,12 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        HorizontalMove();
+    }
+
+    void HorizontalMove() {
         _rigidBody2D.velocity = new Vector2(_joystick.Horizontal * moveSpeed, _rigidBody2D.velocity.y);
+        _anim.SetFloat("playerSpeed", Mathf.Abs(_rigidBody2D.velocity.x));
     }
 
     void FlipFace() {
