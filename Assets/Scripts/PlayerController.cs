@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator _anim;
 
     [SerializeField] float moveSpeed = 0;
+    [SerializeField] float jumpPower = 1f;
     bool facingRight = true;
     
     void Update() {
@@ -26,6 +27,10 @@ public class PlayerController : MonoBehaviour
     void HorizontalMove() {
         _rigidBody2D.velocity = new Vector2(_joystick.Horizontal * moveSpeed, _rigidBody2D.velocity.y);
         _anim.SetFloat("playerSpeed", Mathf.Abs(_rigidBody2D.velocity.x));
+    }
+
+    public void Jump() {
+        _rigidBody2D.AddForce(new Vector2(0f, jumpPower));
     }
 
     void FlipFace() {
