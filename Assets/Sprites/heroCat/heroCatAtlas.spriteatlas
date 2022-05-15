@@ -54,79 +54,13 @@ SpriteAtlas:
       enableTightPacking: 1
     secondaryTextureSettings: {}
     variantMultiplier: 1
-    packables:
-    - {fileID: 2800000, guid: a63da0cae026a984b9ef5a3c2c619a34, type: 3}
-    - {fileID: 2800000, guid: 4d38a73fdf9a4ce4181d46cf25a9f5b3, type: 3}
-    - {fileID: 2800000, guid: c761af5434f7b4e43a42f62a9444e38f, type: 3}
-    - {fileID: 2800000, guid: f1e5f413ec585014587d486c10b417b5, type: 3}
-    - {fileID: 2800000, guid: 82017f2dd2aaacf438bda3aed3ec43f1, type: 3}
-    - {fileID: 2800000, guid: d62aa7a4ea23a784ca080c825d94a44c, type: 3}
-    - {fileID: 2800000, guid: fe3c386de38659a439c13b0ab26a4092, type: 3}
-    - {fileID: 2800000, guid: fe1b994ce59dd5043bb9e56aeb933117, type: 3}
-    - {fileID: 2800000, guid: 2e7e5dc2a3f6e0e4494423dce0e7bc3a, type: 3}
-    - {fileID: 2800000, guid: 7e65b6b5594905046b6c6fd229d05b50, type: 3}
-    - {fileID: 2800000, guid: be45fc6b848e4b8439186d8fee17ad18, type: 3}
-    - {fileID: 2800000, guid: aad45a4f31000404389958b6d52c3dab, type: 3}
-    - {fileID: 2800000, guid: b694dfcac545fc64cbc8f2e78a88c28e, type: 3}
-    - {fileID: 2800000, guid: 54b59162883c559429eef3bae304c37b, type: 3}
-    - {fileID: 2800000, guid: 44ef2a5a947b8974c96ec7638b6ec650, type: 3}
-    - {fileID: 2800000, guid: f0578e465fdf5eb429030d93cc5b43e3, type: 3}
-    - {fileID: 2800000, guid: 4448535631dc4ae459305d8e772b9967, type: 3}
-    - {fileID: 2800000, guid: af8d633aedc1a3d4eb7c28e4a9966b39, type: 3}
-    - {fileID: 2800000, guid: 225fe10517e962a46a835550d5871d63, type: 3}
-    - {fileID: 2800000, guid: b6e6a51551bc6e049adfbe4e6df466a9, type: 3}
-    - {fileID: 2800000, guid: 399e967ca0dd7a24abd48441c7df4e23, type: 3}
-    - {fileID: 2800000, guid: 146828ee474016b4c869fda5285b49ce, type: 3}
+    packables: []
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 54b59162883c559429eef3bae304c37b, type: 3}
-  - {fileID: 21300000, guid: 2e7e5dc2a3f6e0e4494423dce0e7bc3a, type: 3}
-  - {fileID: 21300000, guid: f1e5f413ec585014587d486c10b417b5, type: 3}
-  - {fileID: 21300000, guid: c761af5434f7b4e43a42f62a9444e38f, type: 3}
-  - {fileID: 21300000, guid: d62aa7a4ea23a784ca080c825d94a44c, type: 3}
-  - {fileID: 21300000, guid: 225fe10517e962a46a835550d5871d63, type: 3}
-  - {fileID: 21300000, guid: b6e6a51551bc6e049adfbe4e6df466a9, type: 3}
-  - {fileID: 21300000, guid: 7e65b6b5594905046b6c6fd229d05b50, type: 3}
-  - {fileID: 21300000, guid: f0578e465fdf5eb429030d93cc5b43e3, type: 3}
-  - {fileID: 21300000, guid: 4448535631dc4ae459305d8e772b9967, type: 3}
-  - {fileID: 21300000, guid: af8d633aedc1a3d4eb7c28e4a9966b39, type: 3}
-  - {fileID: 21300000, guid: 44ef2a5a947b8974c96ec7638b6ec650, type: 3}
-  - {fileID: 21300000, guid: a63da0cae026a984b9ef5a3c2c619a34, type: 3}
-  - {fileID: 21300000, guid: b694dfcac545fc64cbc8f2e78a88c28e, type: 3}
-  - {fileID: 21300000, guid: be45fc6b848e4b8439186d8fee17ad18, type: 3}
-  - {fileID: 21300000, guid: fe1b994ce59dd5043bb9e56aeb933117, type: 3}
-  - {fileID: 21300000, guid: 399e967ca0dd7a24abd48441c7df4e23, type: 3}
-  - {fileID: 21300000, guid: 82017f2dd2aaacf438bda3aed3ec43f1, type: 3}
-  - {fileID: 21300000, guid: fe3c386de38659a439c13b0ab26a4092, type: 3}
-  - {fileID: 21300000, guid: 146828ee474016b4c869fda5285b49ce, type: 3}
-  - {fileID: 21300000, guid: 4d38a73fdf9a4ce4181d46cf25a9f5b3, type: 3}
-  - {fileID: 21300000, guid: aad45a4f31000404389958b6d52c3dab, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - Idle4
-  - Die4
-  - Attack4
-  - Attack3
-  - Die
-  - Walk
-  - Walk2
-  - Hurt
-  - Idle6
-  - Jump
-  - Jump2
-  - Idle5
-  - Attack
-  - Idle3
-  - Idle
-  - Die3
-  - Walk3
-  - Attack5
-  - Die2
-  - Walk4
-  - Attack2
-  - Idle2
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
   m_Tag: heroCatAtlas
   m_IsVariant: 0
