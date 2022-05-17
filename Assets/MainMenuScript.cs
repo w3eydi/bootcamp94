@@ -7,7 +7,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public void startFunction()
     {
-        SceneManager.LoadScene("TestSceneBerkay");
+        SceneManager.LoadScene("Level1");
 
     }
 }
