@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/TestSceneBerkay.unity
+    guid: 7d93192e5738a004a9e089fccd274c04
   m_configObjects: {}
