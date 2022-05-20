@@ -19,11 +19,13 @@ bootcamp94
 
 ## Ürün Açıklaması
 
-- Oyun 2D bir platform oyunu olacaktır. Karakterin levelleri geçmesi mantığı üzerine kurulacaktır.
+- Oyun 2D bir platform oyunu olacaktır. Karakterin levelleri geçmesi mantığı üzerine kurulacaktır. Ayrıa levelleri geçerken  enemyler ile savaşılacak ve mama toplanaacaktır.
 
 ## Ürün Özellikleri
 
 - Gittikçe zorlaşan leveller
+- Nesne toplama
+- Enemy saldırıları
 
 ## Hedef Kitle
 
@@ -78,9 +80,9 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 135 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.  2. sprint için 135 puan belirlendi
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
@@ -88,6 +90,7 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint2_1.png) 
+![Backlog 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint2_2.png) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
