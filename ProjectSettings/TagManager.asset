@@ -57,3 +57,6 @@ TagManager:
   - name: Foreground2
     uniqueID: 4128547933
     locked: 0
+  - name: CANVAS
+    uniqueID: 234656111
+    locked: 0

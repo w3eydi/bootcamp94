@@ -59347,18 +59347,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5659512339093028924, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_Color.b
-      value: 0.3436276
-      objectReference: {fileID: 0}
-    - target: {fileID: 5659512339093028924, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5824663
-      objectReference: {fileID: 0}
-    - target: {fileID: 5659512339093028924, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_Color.r
-      value: 0.735849
-      objectReference: {fileID: 0}
     - target: {fileID: 5659512339093028925, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
       propertyPath: m_Name
       value: mama
@@ -59366,18 +59354,6 @@ PrefabInstance:
     - target: {fileID: 5659512339093028927, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5659512339093028927, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 5659512339093028927, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 5659512339093028927, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 5659512339093028927, guid: c00c239cd4a254434a9248b600e3a0f2, type: 3}
       propertyPath: m_LocalPosition.x
