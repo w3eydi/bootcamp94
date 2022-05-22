@@ -17,9 +17,9 @@ public class Mama : MonoBehaviour
         {
             Destroy(other.gameObject);
 
-            Score.totalScore++;
+            Score.totalScore+=10;
 
-            _text.text = Score.totalScore.ToString();
+            _text.text = "Score: " + Score.totalScore.ToString();
 
             
 
