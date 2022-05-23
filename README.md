@@ -56,11 +56,11 @@ bootcamp94
 ![Backlog 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint1_3.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/1.png)
-  ![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/2.png)
-  ![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/3.png)
-  ![Screenshot 4](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/4.png)
-
+![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/UI/img/UI/Baslang%C4%B1c.png)
+![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/UI/img/UI/oyunekran%C4%B1.png)
+![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/UI/img/UI/b%C3%B6l%C3%BCmsonu.png)
+![Screenshot 4](img/Design/characters.png)
+![Screenshot 5](img/Design/tilesets.png)
 
 - **Sprint Review**: 
 Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasarımına başlanacak ayrıca bölüm tasarımı ve ile ilgili genel konsept oluşturulacaktır. Ayrıca UI için taslaklar oluşturulacaktır. Playerın hareket logici oluşturulmaya başlanacaktır.  Sprint Review katılımcıları: Tüm takım katılım sağlamıştır.
@@ -95,19 +95,19 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
+
 ![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/1.png)
-![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/UI/img/UI/oyunekran%C4%B1.png)
-![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/UI/img/UI/b%C3%B6l%C3%BCmsonu.png)
-![Screenshot 4](img/Design/characters.png)
-![Screenshot 5](img/Design/tilesets.png)
+![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/2.png)
+![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/3.png)
+![Screenshot 4](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/4.png)
 
 - **Sprint Review**: 
 -Oyunun uzun vadede nasıl bir yol alacağıyla ilgili fikirler paylaşıldı. Karakter hareket, animasyon, toplanabilir öğeler ve level 1 tasarımı ve UI lar tamamlandı.
 
 - **Sprint Retrospective:**
-  - 	Github daha iyi kullanılabilirdi. Github çok karışıklığa yol açtı. Eğer pull request yoluyla ilerleseydik bu karışıklıkları engelleyebilirdik.
-  - 	Grubun birbirine destek olması ve ihtiyaç halinde düşünmeden yardımcı olması çok güzeldi. Deneyimsiz arkadaşlar deneyimli arkadaşlardan çok faydalandı.
-  - 	Her takım üyesinin Çarşamba ve Pazar günleri toplantılara katılım gösterme çabası ve üzerine düşen görevleri eksiksiz yerine getirmeye çalışması motive ediciydi.
+  - Github daha iyi kullanılabilirdi. Github çok karışıklığa yol açtı. Eğer pull request yoluyla ilerleseydik bu karışıklıkları engelleyebilirdik.
+  - Grubun birbirine destek olması ve ihtiyaç halinde düşünmeden yardımcı olması çok güzeldi. Deneyimsiz arkadaşlar deneyimli arkadaşlardan çok faydalandı.
+  - Her takım üyesinin Çarşamba ve Pazar günleri toplantılara katılım gösterme çabası ve üzerine düşen görevleri eksiksiz yerine getirmeye çalışması motive ediciydi.
 
  
 
