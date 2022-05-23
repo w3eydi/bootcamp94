@@ -95,7 +95,6 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
-
 ![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/1.png)
 ![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/2.png)
 ![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/3.png)
