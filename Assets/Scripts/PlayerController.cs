@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0f;
             _gameOver.SetActive(true);
+            _touchCanvas.enabled = false;
         }
     }
 }
