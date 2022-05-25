@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] FixedJoystick _joystick;
     [SerializeField] Animator _anim;
 
+    [SerializeField] Canvas _touchCanvas;
+    [SerializeField] GameObject _gameOver;
 
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
@@ -61,6 +63,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.name == "DeathBarrier")
         {
             Time.timeScale = 0f;
+            _gameOver.SetActive(true);
         }
     }
 }
