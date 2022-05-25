@@ -10064,6 +10064,10 @@ PrefabInstance:
       propertyPath: _text2
       value: 
       objectReference: {fileID: 3714887180654871134}
+    - target: {fileID: 2077313391, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7233753366815752002, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
       propertyPath: m_SortingLayer
       value: 3
