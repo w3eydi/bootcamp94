@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] FixedJoystick _joystick;
     [SerializeField] Animator _anim;
 
+
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
     float jumpFrequency = 0.1f, nextJumpTime;
@@ -54,5 +55,12 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckCircle
         , groundCheckLayer);
         _anim.SetBool("isGroundedAnim", isGrounded);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.name == "DeathBarrier")
+        {
+            Time.timeScale = 0f;
+        }
     }
 }
