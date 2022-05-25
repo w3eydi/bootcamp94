@@ -60000,6 +60000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasScore
       objectReference: {fileID: 0}
+    - target: {fileID: 3714887181099306818, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3714887181099306878, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
       propertyPath: m_Pivot.x
       value: 0
