@@ -17,6 +17,8 @@ public class Mama : MonoBehaviour
         {
             Destroy(other.gameObject);
 
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().MamaAudio();
+
             Score.totalScore+=10;
             Score.mamaScore+=1;
 
