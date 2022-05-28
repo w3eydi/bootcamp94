@@ -254,6 +254,8 @@ MonoBehaviour:
   _rigidBody2D: {fileID: 7233753366815752028}
   _joystick: {fileID: 0}
   _anim: {fileID: 7233753366815752025}
+  _touchCanvas: {fileID: 0}
+  _gameOver: {fileID: 0}
   moveSpeed: 5
   jumpPower: 400
   groundCheckPosition: {fileID: 7233753365558153408}
