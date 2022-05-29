@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
         if(isGrounded && (nextJumpTime < Time.timeSinceLevelLoad)) {
             nextJumpTime = Time.timeSinceLevelLoad + jumpFrequency;
             _rigidBody2D.AddForce(new Vector2(0f, jumpPower));
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().JumpAudio();
         }
     }
 
@@ -57,6 +58,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckCircle
         , groundCheckLayer);
         _anim.SetBool("isGroundedAnim", isGrounded);
+       
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -64,6 +66,7 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0f;
             _gameOver.SetActive(true);
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
             _touchCanvas.enabled = false;
         }
     }
