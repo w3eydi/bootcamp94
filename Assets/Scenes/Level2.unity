@@ -34131,6 +34131,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5179012673465418729, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    - target: {fileID: 5179012673465418729, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179012673465418729, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5179012673694144044, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
       propertyPath: m_Name
       value: TouchCanvas
