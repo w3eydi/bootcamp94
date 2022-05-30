@@ -34443,6 +34443,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7631299233383330335, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
 --- !u!114 &3714887180654871134 stripped
@@ -34566,6 +34570,10 @@ PrefabInstance:
     - target: {fileID: 5179012673694144467, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179012674241340805, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 228
       objectReference: {fileID: 0}
     - target: {fileID: 5179012674241340810, guid: 6d182c5f6401c19448d4864bfc27a395, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
