@@ -34578,46 +34578,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 684053068, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1693721419, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055780, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 353.9685
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055780, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 42.8347
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055780, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -309
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055780, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -24
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055783, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_text
-      value: 'Score: 0'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055783, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_fontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055783, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714887179620055783, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3714887181099306818, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
       propertyPath: m_Name
       value: CanvasScore
@@ -34704,14 +34664,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3714887181099306878, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234438641697384946, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7631299233383330335, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
