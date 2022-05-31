@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] Canvas _touchCanvas;
     [SerializeField] GameObject _gameOver;
+    [SerializeField] GameObject _pauseOver;
+    [SerializeField] GameObject _heartOver;
 
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
@@ -66,8 +68,10 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0f;
             _gameOver.SetActive(true);
-            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
+            _heartOver.SetActive(false);
+            _pauseOver.SetActive(false);
             _touchCanvas.enabled = false;
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
         }
     }
 }
