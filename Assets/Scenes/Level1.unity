@@ -850,6 +850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431997921}
   - component: {fileID: 431997920}
+  - component: {fileID: 431997922}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -922,6 +923,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &431997922
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431997919}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 959aa2808798dd44d86c034be35eeadb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &530828551 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 404038621482008739, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
@@ -60214,6 +60234,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3714887181099306878, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234438641697384946, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631299233383330335, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8878004898886816236, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
