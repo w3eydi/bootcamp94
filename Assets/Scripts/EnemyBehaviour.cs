@@ -8,6 +8,7 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] Rigidbody2D enemyRigidbody;
     [SerializeField] Transform groundCheckPosition;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] Collider2D bodyCollider2D;
     
     [HideInInspector] public bool mustPatrol = true;
     bool mustTurn;
@@ -27,7 +28,7 @@ public class EnemyBehaviour : MonoBehaviour
     }
 
     void Patrol() {
-        if (mustTurn)
+        if (mustTurn || bodyCollider2D.IsTouchingLayers(groundLayer))
         {
             Flip();
         }
