@@ -4,81 +4,44 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-   [SerializeField] float moveSpeed;
+    [SerializeField] float moveSpeed;
+    [SerializeField] Rigidbody2D enemyRigidbody;
+    [SerializeField] Transform groundCheckPosition;
+    [SerializeField] LayerMask groundLayer;
     
-    [HideInInspector] public bool mustPatrol;
-   /*bool movingRight = true;
-   float distance = 2f;
+    [HideInInspector] public bool mustPatrol = true;
+    bool mustTurn;
 
-   [SerializeField] Transform groundDetection;
-    */
-   void Update() {
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       /*transform.Translate(Vector2.right * moveSpeed * Time.deltaTime, 0f);
-       RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
-        if (groundInfo.collider == false && movingRight == true)
-        {
-            transform.rotation = new Vector3(0, -180, 0);
-            movingRight = false;
-        } else if (groundInfo.collider == false && movingRight == false) {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-            movingRight = true;
-        }*/
-   } 
+    void Update() {
+        
+        if(mustPatrol) {
+            Patrol();
+        }
     
-    
-    
-    
-    
-    
-    
-    
-    /*
-    [SerializeField] float moveSpeed = 25f;
-
-    Rigidbody2D enemyRigidbody;
-    void Start()
-    {
-        enemyRigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (IsFacingRight())
-        {
-            enemyRigidbody.velocity = new Vector2(-moveSpeed * Time.deltaTime, 0f);
-        } else
-        {
-            enemyRigidbody.velocity = new Vector2(moveSpeed * Time.deltaTime, 0f);
+    void FixedUpdate() {
+        if(mustPatrol) {
+            mustTurn = !Physics2D.OverlapCircle(groundCheckPosition.position, 0.1f, groundLayer);
         }
     }
 
-    private bool IsFacingRight() {
-        return transform.localScale.x > Mathf.Epsilon;
+    void Patrol() {
+        if (mustTurn)
+        {
+            Flip();
+        }
+        enemyRigidbody.velocity = new Vector2(moveSpeed * Time.fixedDeltaTime, enemyRigidbody.velocity.y);
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
-        transform.localScale = new Vector2(-(Mathf.Sign(enemyRigidbody.velocity.x)), transform.localScale.y);
-    }*/
+    void Flip() {
+        mustPatrol = false;
+        Vector3 tempLocalScale = transform.localScale;
+        tempLocalScale.x *= -1;
+        transform.localScale = tempLocalScale;
+        moveSpeed *= -1;
+        mustPatrol = true;
+    }
+    
+    
 }
