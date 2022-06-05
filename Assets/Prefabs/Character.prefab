@@ -258,6 +258,8 @@ MonoBehaviour:
   _gameOver: {fileID: 0}
   _pauseOver: {fileID: 0}
   _heartOver: {fileID: 0}
+  _life3: {fileID: 0}
+  _life2: {fileID: 0}
   moveSpeed: 5
   jumpPower: 400
   groundCheckPosition: {fileID: 7233753365558153408}

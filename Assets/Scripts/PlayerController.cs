@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject _gameOver;
     [SerializeField] GameObject _pauseOver;
     [SerializeField] GameObject _heartOver;
+    [SerializeField] GameObject _life3;
+    [SerializeField] GameObject _life2;
     int life = 3;
 
 
@@ -76,6 +78,16 @@ public class PlayerController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
         } else if (other.gameObject.CompareTag("Enemy")) {
             life--;
+            if (life == 3){
+                _life3.SetActive(true);
+                _life2.SetActive(true);
+            } else if (life == 2) {
+                _life3.SetActive(false);
+                _life2.SetActive(true);
+            } else if (life == 1) {
+                _life3.SetActive(false);
+                _life2.SetActive(false);
+            }
         }
     }
 }
