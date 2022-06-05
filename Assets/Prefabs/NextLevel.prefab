@@ -72,3 +72,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndofScene: {fileID: 0}
   _touchCanvas: {fileID: 0}
+  _scoreText: {fileID: 0}
