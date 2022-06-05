@@ -29,16 +29,19 @@ public class GameManagerScript : MonoBehaviour
         Time.timeScale = 1.0f; // Zamanı normale çevirir
         heart.SetActive(true);
         pauseButton.SetActive(true);
+        Score.totalScore = 0;
     }
 
     public void NextLevel() {
         if(SceneManager.GetActiveScene().name == "Level1"){
             SceneManager.LoadScene("Level2");
             Time.timeScale = 1f;
+            Score.totalScore = 0;
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
         } else if (SceneManager.GetActiveScene().name == "Level2"){
             SceneManager.LoadScene("BossLevel");
             Time.timeScale = 1f;
+            Score.totalScore = 0;
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
         }
     }

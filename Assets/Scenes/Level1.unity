@@ -2173,6 +2173,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2147417609}
     - target: {fileID: 609483106, guid: 6d5864b427fc1e44a95c1b37c538a7e5, type: 3}
+      propertyPath: _scoreText
+      value: 
+      objectReference: {fileID: 644594809}
+    - target: {fileID: 609483106, guid: 6d5864b427fc1e44a95c1b37c538a7e5, type: 3}
       propertyPath: _touchCanvas
       value: 
       objectReference: {fileID: 1874720000}
