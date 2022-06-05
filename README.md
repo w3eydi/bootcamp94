@@ -94,7 +94,6 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 ![Backlog 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint2_3.png) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-
 ![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/1.png)
 ![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/2.png)
 ![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/3.png)
@@ -116,6 +115,37 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
 ---
 # Sprint 3
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 145 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.  2. sprint için 135 puan belirlendi son sprint de 145 puan kaldı
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/DailyScrumMeetingNotesSprint3.docx)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint3_1.png) 
+![Backlog 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint3_2.png) 
+![Backlog 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/BoardScreenShats/Sprint3_3.png) 
+
+- **Ürün Durumu**: Ekran görüntüleri:
+![Screenshot 1](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/5.png)
+![Screenshot 2](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/6.png)
+![Screenshot 3](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/7.png)
+![Screenshot 4](https://github.com/w3eydi/bootcamp94/blob/sprint/img/Sprint/GameScreenSharts/8.png)
+
+- **Sprint Review**: 
+-Oyunun level 1, level 2 ve boss levelleri tasarlandı. Sesler, müzik ve animasyonlar eklendi. Options menüsü düzenlendi
+
+- **Sprint Retrospective:**
+  - Proje devam ederse mekaniklerin iyileştirileceği, yeni levellerin, enemylerin ve bossların ekleneceğine karar verildi
+  - Backlog lşstesinde yer alan maddelerinde ele alınabileceği konuşuldu.
+
+ 
+
+-**Diğer Notlar**:
+- N/A
 
 ---
