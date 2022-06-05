@@ -60903,10 +60903,6 @@ PrefabInstance:
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 530828551}
-    - target: {fileID: 6854891151506976368, guid: 565c9a3874b0ff840ad928b02844dd7d, type: 3}
-      propertyPath: gameOverMenu
-      value: 
-      objectReference: {fileID: 87330379}
     - target: {fileID: 6854891151506976369, guid: 565c9a3874b0ff840ad928b02844dd7d, type: 3}
       propertyPath: m_Name
       value: Manager

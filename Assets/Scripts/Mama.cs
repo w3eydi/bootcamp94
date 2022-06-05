@@ -33,7 +33,7 @@ public class Mama : MonoBehaviour
             _text2.text = "x " + Score.mamaScore.ToString();
         }
 
-        if(Score.mamaScore > 9) {
+        if(Score.mamaScore >= 9) {
             _star1.SetActive(true);
             _star2.SetActive(true);
             _star3.SetActive(true);
@@ -51,6 +51,14 @@ public class Mama : MonoBehaviour
             _kurdele3.SetActive(false);
         } else if(Score.mamaScore >= 1) {
             _star1.SetActive(true);
+            _star2.SetActive(false);
+            _star3.SetActive(false);
+
+            _kurdele1.SetActive(false);
+            _kurdele2.SetActive(false);
+            _kurdele3.SetActive(true);
+        } else {
+            _star1.SetActive(false);
             _star2.SetActive(false);
             _star3.SetActive(false);
 
