@@ -79,8 +79,7 @@ public class PlayerController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
         } else if (other.gameObject.CompareTag("Enemy")) {
             life--;
-            isDamaged = true;
-            _anim.SetBool("isDamage", isDamaged);
+            _anim.SetTrigger("isDamage");
             
             if (life == 3){
                 _life3.SetActive(false);
