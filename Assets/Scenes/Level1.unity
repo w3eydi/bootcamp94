@@ -254,6 +254,18 @@ PrefabInstance:
       propertyPath: _kurdele3
       value: 
       objectReference: {fileID: 530350897}
+    - target: {fileID: 7233753366815752002, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4198113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233753366815752002, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4198113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233753366815752002, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7233753366815752003, guid: e88522574506dfa449c1fcecb6c25a83, type: 3}
       propertyPath: m_Name
       value: Character

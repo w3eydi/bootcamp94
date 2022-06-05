@@ -22,10 +22,11 @@ public class PlayerController : MonoBehaviour
     float jumpFrequency = 0.1f, nextJumpTime;
     bool facingRight = true;
     bool isGrounded = false;
+    bool isDamaged = false;
     [SerializeField] Transform groundCheckPosition;
     [SerializeField] float groundCheckCircle;
     [SerializeField] LayerMask groundCheckLayer;
-    
+
     void Update() {
       if(_rigidBody2D.velocity.x < 0 && facingRight) {
           FlipFace();
@@ -78,8 +79,11 @@ public class PlayerController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
         } else if (other.gameObject.CompareTag("Enemy")) {
             life--;
+            isDamaged = true;
+            _anim.SetBool("isDamage", isDamaged);
+            
             if (life == 3){
-                _life3.SetActive(true);
+                _life3.SetActive(false);
                 _life2.SetActive(true);
             } else if (life == 2) {
                 _life3.SetActive(false);
@@ -88,6 +92,7 @@ public class PlayerController : MonoBehaviour
                 _life3.SetActive(false);
                 _life2.SetActive(false);
             }
+            isDamaged = false;
         }
     }
 }
