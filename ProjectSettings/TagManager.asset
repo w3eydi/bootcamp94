@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mama
   - Audio
+  - Enemy
   layers:
   - Default
   - TransparentFX

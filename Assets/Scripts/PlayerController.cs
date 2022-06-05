@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject _gameOver;
     [SerializeField] GameObject _pauseOver;
     [SerializeField] GameObject _heartOver;
+    int life = 3;
 
 
     [SerializeField] float moveSpeed = 0;
@@ -65,7 +66,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.name == "DeathBarrier")
+        if (other.gameObject.name == "DeathBarrier" || life <= 0)
         {
             Time.timeScale = 0f;
             _gameOver.SetActive(true);
@@ -73,6 +74,8 @@ public class PlayerController : MonoBehaviour
             _pauseOver.SetActive(false);
             _touchCanvas.enabled = false;
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
+        } else if (other.gameObject.CompareTag("Enemy")) {
+            life--;
         }
     }
 }
