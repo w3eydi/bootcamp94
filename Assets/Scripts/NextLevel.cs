@@ -16,6 +16,7 @@ public class NextLevel : MonoBehaviour
             EndofScene.SetActive(true);
             _touchCanvas.enabled = false;
             _scoreText.text = "Your Score : " + Score.totalScore.ToString();
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
         }
     }
 

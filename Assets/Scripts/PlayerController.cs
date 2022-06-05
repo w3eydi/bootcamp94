@@ -80,7 +80,6 @@ public class PlayerController : MonoBehaviour
         } else if (other.gameObject.CompareTag("Enemy")) {
             life--;
             _anim.SetTrigger("isDamage");
-            
             if (life == 3){
                 _life3.SetActive(false);
                 _life2.SetActive(true);

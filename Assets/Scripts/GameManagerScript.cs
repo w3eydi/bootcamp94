@@ -37,12 +37,10 @@ public class GameManagerScript : MonoBehaviour
             SceneManager.LoadScene("Level2");
             Time.timeScale = 1f;
             Score.totalScore = 0;
-            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
         } else if (SceneManager.GetActiveScene().name == "Level2"){
             SceneManager.LoadScene("BossLevel");
             Time.timeScale = 1f;
             Score.totalScore = 0;
-            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
         }
     }
 
