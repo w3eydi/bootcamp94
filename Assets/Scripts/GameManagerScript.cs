@@ -30,6 +30,8 @@ public class GameManagerScript : MonoBehaviour
         heart.SetActive(true);
         pauseButton.SetActive(true);
         Score.totalScore = 0;
+        Score.mamaScore = 0;
+        Score.mamaScore = 0;
     }
 
     public void NextLevel() {
@@ -40,6 +42,7 @@ public class GameManagerScript : MonoBehaviour
         } else if (SceneManager.GetActiveScene().name == "Level2"){
             SceneManager.LoadScene("BossLevel");
             Time.timeScale = 1f;
+            Score.mamaScore = 0;
             Score.totalScore = 0;
         }
     }
