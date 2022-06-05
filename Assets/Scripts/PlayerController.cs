@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject _pauseOver;
     [SerializeField] GameObject _heartOver;
 
+
     [SerializeField] float moveSpeed = 0;
     [SerializeField] float jumpPower = 1f;
     float jumpFrequency = 0.1f, nextJumpTime;
