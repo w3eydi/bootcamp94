@@ -31,4 +31,16 @@ public class GameManagerScript : MonoBehaviour
         pauseButton.SetActive(true);
     }
 
+    public void NextLevel() {
+        if(SceneManager.GetActiveScene().name == "Level1"){
+            SceneManager.LoadScene("Level2");
+            Time.timeScale = 1f;
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
+        } else if (SceneManager.GetActiveScene().name == "Level2"){
+            SceneManager.LoadScene("BossLevel");
+            Time.timeScale = 1f;
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().ComplateAudio();
+        }
+    }
+
 }

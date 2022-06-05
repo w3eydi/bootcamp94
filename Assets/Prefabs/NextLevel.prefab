@@ -70,3 +70,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f27545872446b479dc54448e3cc994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EndofScene: {fileID: 0}
+  _touchCanvas: {fileID: 0}
