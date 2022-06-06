@@ -47,4 +47,11 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
+    public void BackToMenu()
+    {
+
+        SceneManager.LoadScene("MainScene");
+
+    }
+
 }
