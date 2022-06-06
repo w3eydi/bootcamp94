@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.name == "DeathBarrier" || life <= 0)
+        if (other.gameObject.name == "DeathBarrier")
         {
             Time.timeScale = 0f;
             _gameOver.SetActive(true);
@@ -77,11 +77,12 @@ public class PlayerController : MonoBehaviour
             _pauseOver.SetActive(false);
             _touchCanvas.enabled = false;
             GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
-        } else if (other.gameObject.CompareTag("Enemy")) {
-            life--;
+        } else if (other.gameObject.CompareTag("Enemy") ||
+        other.gameObject.CompareTag("Projectile")) {
+            life -= 1;
             _anim.SetTrigger("isDamage");
             if (life == 3){
-                _life3.SetActive(false);
+                _life3.SetActive(true);
                 _life2.SetActive(true);
             } else if (life == 2) {
                 _life3.SetActive(false);
@@ -89,6 +90,13 @@ public class PlayerController : MonoBehaviour
             } else if (life == 1) {
                 _life3.SetActive(false);
                 _life2.SetActive(false);
+            } else {
+                Time.timeScale = 0f;
+                _gameOver.SetActive(true);
+                _heartOver.SetActive(false);
+                _pauseOver.SetActive(false);
+                _touchCanvas.enabled = false;
+                GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>().GameoverAudio();
             }
             isDamaged = false;
         } else if (other.gameObject.name == "BossTrigger") {
