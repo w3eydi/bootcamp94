@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
             isDamaged = false;
         } else if (other.gameObject.name == "BossTrigger") {
             Score.bossTrigger = true;
-            Debug.Log("tetiklendi");
+            Camera.main.orthographicSize = 10;
         }
     }
 }
