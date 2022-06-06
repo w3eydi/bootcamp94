@@ -45280,7 +45280,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 4.9541187, y: -3.6645842}
@@ -45304,7 +45304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506638186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.4, y: -12, z: -3.4660423}
+  m_LocalPosition: {x: 82.4, y: -12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -46623,8 +46623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedOfBoss: 10
-  stoppingDistance: 30
-  stepBackDistance: 10
+  stoppingDistance: 15
+  stepBackDistance: 7
   player: {fileID: 112174628}
 --- !u!1001 &1355951583
 PrefabInstance:

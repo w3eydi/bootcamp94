@@ -91,6 +91,9 @@ public class PlayerController : MonoBehaviour
                 _life2.SetActive(false);
             }
             isDamaged = false;
+        } else if (other.gameObject.name == "BossTrigger") {
+            Score.bossTrigger = true;
+            Debug.Log("tetiklendi");
         }
     }
 }

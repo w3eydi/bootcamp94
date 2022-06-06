@@ -8,4 +8,6 @@ public class Score : MonoBehaviour
 
     public static int mamaScore;
 
+    public static bool bossTrigger = false;
+
 }

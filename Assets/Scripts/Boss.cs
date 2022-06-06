@@ -16,13 +16,15 @@ public class Boss : MonoBehaviour
 
     void Update()
     {
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance) {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speedOfBoss * Time.deltaTime);
-        } else if (Vector2.Distance(transform.position, player.position) < stoppingDistance
-        && Vector2.Distance(transform.position, player.position) > stepBackDistance) {
-            transform.position = this.transform.position;
-        } else if (Vector2.Distance(transform.position, player.position) < stepBackDistance) {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, -speedOfBoss * Time.deltaTime);
+        if (Score.bossTrigger == true) {
+            if (Vector2.Distance(transform.position, player.position) > stoppingDistance) {
+                transform.position = Vector2.MoveTowards(transform.position, player.position, speedOfBoss * Time.deltaTime);
+            } else if (Vector2.Distance(transform.position, player.position) < stoppingDistance
+            && Vector2.Distance(transform.position, player.position) > stepBackDistance) {
+                transform.position = this.transform.position;
+            } else if (Vector2.Distance(transform.position, player.position) < stepBackDistance) {
+                transform.position = Vector2.MoveTowards(transform.position, player.position, -speedOfBoss * Time.deltaTime);
+            }
         }
     }
 }
