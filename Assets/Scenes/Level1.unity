@@ -60696,6 +60696,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429159823, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 777848859}
+    - target: {fileID: 1967679904, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 777848859}
     - target: {fileID: 430466394425548755, guid: 658b11fadda7a49cc88e077855c1edbf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
