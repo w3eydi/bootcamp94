@@ -146,6 +146,4 @@ Alınan kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasar
  
 
 -**Diğer Notlar**:
-- N/A
-
----
+- Proje editör version : 2020.3.33f1
