@@ -31,7 +31,7 @@ public class GameManagerScript : MonoBehaviour
         pauseButton.SetActive(true);
         Score.totalScore = 0;
         Score.mamaScore = 0;
-        Score.mamaScore = 0;
+        Score.bossTrigger = false;
     }
 
     public void NextLevel() {
