@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
         } else if (other.gameObject.name == "BossTrigger") {
             Score.bossTrigger = true;
             Camera.main.orthographicSize = 11;
+            _touchCanvas.transform.GetChild(2).gameObject.SetActive(true);
         }
     }
 }
