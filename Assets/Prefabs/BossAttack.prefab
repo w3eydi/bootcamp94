@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8485429013567103119}
   - component: {fileID: 8485429013567103118}
   - component: {fileID: 2926505705534607373}
+  - component: {fileID: 5733269598031227328}
   m_Layer: 0
   m_Name: BossAttack
   m_TagString: Untagged
@@ -95,5 +96,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92aeb68097b14854fad2aaf8f089e690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedOfProjectile: 25
-  player: {fileID: 0}
+  speedOfProjectile: 11.5
+--- !u!58 &5733269598031227328
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485429013567103089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.017298173}
+  serializedVersion: 2
+  m_Radius: 0.16963692
